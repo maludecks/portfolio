@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaGithub, FaReact, FaTwitter } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/avatar.png";
 import rmtdevImg from "@/public/avatar.png";
 import wordanalyticsImg from "@/public/avatar.png";
+import { BsLinkedin } from "react-icons/bs";
 
 export const links = [
   {
@@ -31,6 +32,21 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+] as const;
+
+export const socials = [
+  {
+    type: BsLinkedin,
+    url: "https://linkedin.com/in/maludecks"
+  },
+  {
+    type: FaGithub,
+    url: "https://github.com/maludecks"
+  },
+  {
+    type: FaTwitter,
+    url: "https://x.com/maludecks"
+  }
 ] as const;
 
 export const experiencesData = [
